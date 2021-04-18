@@ -3,7 +3,7 @@
 <h3>File Order:</h3>
 <ul>
   <li>OwnerAdviserScript > ServerScriptService</li>
-  <li>OwnerAdviserScript > StarterGui</li>
+  <li>DevConnectedChatEvent > StarterGui</li>
 </ul>
 <h3>Files to create:</h3>
 <ol>
@@ -14,9 +14,9 @@
 <h4>Inside of OwnerAdviserSript:</h4>
 <ol>
   <li>If the game belongs to a group change values inside of GroupDevelopers table. (Line 19)</li>
-  <li>Change "YOUR_USER_ID" with your id. (Line 25)</li>
+  <li>If the game belong to a user change "YOUR_USER_ID" with your id. (Line 25)</li>
 </ol>
-<h4>Inside of DevConnectedChatEvent</h4>
+<h4>Inside of DevConnectedChatEvent:</h4>
 <ol>
   <li>You can modify the Connected Message. (Line 22 and Line 33)</li>
   <li>You can modify the message color. (Line 23 and Line 34)</li>
